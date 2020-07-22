@@ -10,8 +10,14 @@ import {
 import { Home, Nav, About, Contact, Article, Error } from "./components";
 import "./App.css";
 
-const App = () => {
+const trackingId = "UA-173147903-1"; 
+function initializeAnalytics(){
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview('/Home')
+}
 
+const App = () => {
+ initializeAnalytics()
   return (
     <>
       <Router>
