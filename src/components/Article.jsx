@@ -1,5 +1,5 @@
 import React from "react";
-import articleLogo from "../static/img/article-detail-header.png";
+
 import loadingSpinner from "../static/img/loading-spinner.gif";
 const Article = (props) => {
   const { detail } = props.location.state;
