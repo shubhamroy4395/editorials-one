@@ -5,9 +5,9 @@ const Article = (props) => {
   const { detail } = props.location.state;
   return (
     <>
-      <div className="container article-detail">
-        <img className="detail-header" src={articleLogo} alt="" />
-      </div>
+      //<div className="container article-detail">
+      //  <img className="detail-header" src={articleLogo} alt="" />
+      //</div>
       {detail.title ? (
         <div className="container mb-5">
           <div className="container jumbotron mb-5">
